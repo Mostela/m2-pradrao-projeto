@@ -6,7 +6,7 @@ public abstract class RelatorioTemplate {
     private ArrayList<Pedido> pedidos;
 
     public void gerar(){
-
+        System.out.println("Relatorio dos pedidos gerado!!");
     }
 
     public void montaCabecalho(){
