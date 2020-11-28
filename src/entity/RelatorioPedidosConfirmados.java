@@ -1,5 +1,7 @@
 package entity;
 
+import java.util.ArrayList;
+
 public class RelatorioPedidosConfirmados extends RelatorioTemplate{
     @Override
     public void montaCabecalho() {
@@ -7,8 +9,8 @@ public class RelatorioPedidosConfirmados extends RelatorioTemplate{
     }
 
     @Override
-    public void montaConteudo() {
-        super.montaConteudo();
+    public void montaConteudo(ArrayList<Pedido> list_pedidos) {
+        super.montaConteudo(list_pedidos);
     }
 
     @Override

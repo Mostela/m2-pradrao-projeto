@@ -33,4 +33,9 @@ public class Pedido {
     public Status getStatus() {
         return status;
     }
+
+    @Override
+    public String toString() {
+        return this.getId() + " | " + this.getDescricao() + " | " + this.getStatus() + " | " + this.getTotal();
+    }
 }
